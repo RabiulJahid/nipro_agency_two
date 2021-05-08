@@ -1,0 +1,158 @@
+/*COMMON CSS*/
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+/*HEADER START*/
+header {
+}
+nav.C_nav {
+    padding-top: 0;
+}
+a.Left_all {
+    padding-top: 0;
+}
+
+/*LOGO*/
+div.logo {
+    font-family: "Lato", sans-serif;
+}
+div.logo .one {
+}
+img.I_mg {
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+div.logo .logo_T {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333333;
+}
+/*MENU*/
+.Menu {
+    margin-top: 30px;
+}
+.Menu ul li a {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #8e8e8e !important;
+    transition: 0.4s;
+    padding: 15px !important;
+}
+.Menu ul li a:hover {
+    color: #333333 !important;
+    border-bottom: 1px solid indigo;
+}
+/*SEARCH*/
+a.btn-search {
+    color: #8e8e8e;
+}
+a.btn-search:hover {
+    color: #333333;
+}
+a.btn-search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+/*SUB SEARCH*/
+ul.D_search {
+    min-width: 350px;
+    top: 65px;
+    padding: 10px 10px;
+    border: none;
+}
+ul.D_search[data-bs-popper] {
+    left: -300px;
+}
+div.search {
+}
+button.icon {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/*HEADER END*/
+/*SLIDER START*/
+section.slider{
+
+}
+div.custom_indicator{
+    width: 80px;
+    height: 29px;
+    margin-left: 8.5rem;
+}
+.custom_indicator [data-bs-target] {
+ 
+    width: 21px;
+    height: 20px;
+    margin-right: 20px;
+    background-color: #0f0e0e;
+    padding: 2px;
+     }
+
+div.c_padding_0{
+    padding: 0;
+}
+  /*indicator icon*/
+div.C_indicator{
+
+}
+button.b_indicator{
+    width: 15px;
+    height: 15px;
+}
+div.C_car_caption{
+    bottom: 25%;
+    text-align: start;
+    width: 45%;
+   height: auto;
+    /*border: 1px solid black;*/
+}
+ h1{
+    font-family: font-family: 'Lato', sans-serif !important;
+    font-weight: 400;
+    font-size:50px;
+    margin-bottom: 40px;
+}
+
+  p{
+    line-height: 25px;
+    line-height: 27px;
+  }
+  button.learn{
+    width: 200px;
+    height: 50px;
+    margin-top: 60px;
+  }
+  i.arrow{
+    font-size: 20px;
+    margin-left: 27px;
+  }
+
+  /*next & privious button start*/
+
+button.C_c_Prv_btn, button.C_c_Nxt_btn{
+    color: #898989;
+    align-items: flex-end;
+    width: 10%;
+  }
+ /* button.C_c_Prv_btn{
+    left: 140px;
+    right: auto;
+  } 
+   button.C_c_Nxt_btn{
+     right: 70px;
+     left: auto;  
+   }*/
+span.C_Pre_icon{
+    background-image: none;
+   margin-left: 24rem ;
+  }
+span.C_next_icon{
+    background-image: none;
+    margin-right: 145rem ;
+}
+/*SLIDER END*/

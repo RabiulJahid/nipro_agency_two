@@ -1,0 +1,252 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*LOGO*/
+	.B_small{
+    margin-top: 21px;
+     }
+
+	/*MENU*/
+ul.menu_ul {
+    margin-bottom: 0;
+    text-align: right;
+    border-bottom: none;
+    }  
+  ul.menu_ul li a:hover{
+    	border: none !important;
+    }
+    /*SEARCH*/
+    div.s_M{
+    	text-align: right;
+    }
+    /*SUB SEARCH*/
+ ul.D_search[data-bs-popper] {
+    margin-left: 430px;
+  }
+   /*item start*/
+   div.custom_indicator {
+    width: 79px;
+    height: 26px;
+    margin-left: 5.5rem;
+}
+ div.C_car_caption {
+    top: -10%;
+    margin-left: -5%;
+    width:100%;
+  }
+  h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+  p{
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom:2px;
+  }
+  button.learn {
+    width: 130px;
+    height: 31px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+   /*next & privious button start*/
+span.C_Pre_icon{  
+  margin-left: 5rem;
+  }
+span.C_next_icon{
+    margin-right: 28rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*LOGO*/
+	.B_small{
+    margin-top: 21px;
+     }
+
+	/*MENU*/
+ul.menu_ul {
+    margin-bottom: 0;
+    text-align: right;
+    border-bottom: none;
+    }  
+  ul.menu_ul li a:hover{
+    	border: none !important;
+    }
+    /*SEARCH*/
+    div.s_M{
+    	text-align: right;
+    }
+    /*SUB SEARCH*/
+ ul.D_search[data-bs-popper] {
+    margin-left: 440px;
+  }
+   /*item start*/
+   div.custom_indicator {
+    width: 80px;
+    height: 26px;
+    margin-left: 6rem;
+}
+   div.C_car_caption {
+    top: -5%;
+    margin-left: -5%;
+  }
+  h1{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+  p{
+    font-size: 15px;
+    line-height: 19px;
+  }
+  button.learn {
+    font-size: 15px;
+    width: 150px;
+    height: 32px;
+    margin-top: 2px;
+  }
+   /*next & privious button start*/
+span.C_Pre_icon{  
+   margin-left: 5rem;
+  }
+span.C_next_icon{
+    margin-right: 46rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*LOGO*/
+	.B_small{
+    margin-top: 21px;
+     }
+
+	/*MENU*/
+ul.menu_ul {
+    margin-bottom: 0;
+    text-align: right;
+    border-bottom: none;
+    }  
+  ul.menu_ul li a:hover{
+    	border: none !important;
+    }
+    /*SEARCH*/
+    div.s_M{
+    	text-align: right;
+    }
+    /*SUB SEARCH*/
+ ul.D_search[data-bs-popper] {
+    margin-left: 440px;
+  }
+   /*item start*/
+   div.custom_indicator {
+    width: 75px;
+    height: 25px;
+    margin-left: 6.5rem;
+}
+ div.C_car_caption {
+    bottom: 7%;
+    margin-left: -8%;
+    width: 50%;
+  }
+
+  h1{
+    font-size:34px;
+   margin-bottom: 50px;
+   margin-bottom: 25px;
+    }
+    p{
+    line-height: 24px;
+    }
+     button.learn{
+    margin-top: 6px;
+    height: 37px;
+    margin-bottom: 14px;
+     }
+      /*next & privious button start*/
+span.C_Pre_icon{  
+ margin-left: 4rem;
+  }
+span.C_next_icon{
+    margin-right: 67rem;
+  }
+  }
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+          /*item start*/
+div.custom_indicator {
+    width: 80px;
+    height: 27px;
+    margin-left: 8.5rem;
+  }
+div.C_car_caption {
+    bottom: 8%;
+    margin-left: -7%;
+  }
+  h1{
+font-size: 42px;
+  }
+  button.learn {
+    width: 160px;
+    height: 40px;
+    margin-top: 25px;
+    }
+
+ /* next & privious button start*/
+ span.C_Pre_icon{  
+  margin-left: 7rem;
+  }
+span.C_next_icon{
+    margin-right: 93rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+     /*item start*/
+     div.custom_indicator {
+    width: 80px;
+    height: 29px;
+    margin-left: 11rem;
+}
+ div.C_car_caption {
+    bottom: 18%;
+    margin-left: -5%;
+  }
+  h1{
+    font-size: 47px;
+    margin-bottom: 55px;
+    }
+    button.learn {
+    width: 190px;
+    height: 40px;
+    margin-top: 8px;
+  }
+  /*next & privious button start*/
+  span.C_Pre_icon{  
+   margin-left: 11rem;
+  }
+span.C_next_icon{
+    margin-right: 110rem;
+  }
+} 
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*item start*/
+div.custom_indicator {
+    width: 80px;
+    height: 29px;
+    margin-left: 16.5rem;
+}
+ /*next & privious button start*/
+span.C_Pre_icon{
+   margin-left: 20rem ;
+  }
+span.C_next_icon{
+    margin-right: 122rem ;
+}
+
+}
